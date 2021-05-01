@@ -17,7 +17,7 @@ public class linearSearch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         linearSearch ls = new linearSearch();
-        int arr[] = {6,5,7,9,4,2,1,3};
+        int arr[] = {6,5,7,9,4,2,1,3,4};
         int k =10;
         int len = arr.length;
        int res = ls.searchKey(arr, len, k);
