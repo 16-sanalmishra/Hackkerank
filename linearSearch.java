@@ -22,10 +22,10 @@ public class linearSearch {
         int len = arr.length;
        int res = ls.searchKey(arr, len, k);
        if(res == 1){
-           System.out.println("Found");
+           System.out.println("Element Found");
        }
        else{
-        System.out.println("Not Found");
+        System.out.println("Element Not Found");
        }
 
 
