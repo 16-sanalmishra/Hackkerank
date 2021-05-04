@@ -26,6 +26,7 @@ public class linearSearch {
         for(int i =0; i<l; i++){
             arr1[i] = sc.nextInt()
         }
+        
         int k =10;
         int len = arr.length;
        int res = ls.searchKey(arr1, len, k);
