@@ -16,6 +16,7 @@ public class linearSearch {
         return -1;
     }
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
         linearSearch ls = new linearSearch();
         int arr[] = {6,5,7,9,4,2,1,3,4};
